@@ -64,15 +64,15 @@ namespace maqueen {
         turnOff = 0x00
     }
 
-    //% advanced=true shim=maqueenIR::initIR
+    //% shim=maqueenIR::initIR
     function initIR(pin: Pins): void {
         return
     }
-    //% advanced=true shim=maqueenIR::onPressEvent
+    //% shim=maqueenIR::onPressEvent
     function onPressEvent(btn: RemoteButton, body: Action): void {
         return
     }
-    //% advanced=true shim=maqueenIR::getParam
+    //% shim=maqueenIR::getParam
     function getParam(): number {
         return 0
     }
@@ -122,7 +122,7 @@ namespace maqueen {
         }
         return version
     }
-    
+
     function IR_callback(a: Action): void {
         maqueencb = a
         IrPressEvent += 1
