@@ -23,6 +23,7 @@
   "maqueen.readPatrol|block": "Read Patrol|%patrol",
   "maqueen.sensor|block": "sensor unit|%unit",
   "maqueen.writeLED|block": "led|%led|ledswitch|%ledswitch",
+  "maqueen.writeNEO|block": "ambient color|%ledcolor",
   "maqueenIR.initIR|block": "connect ir receiver to %pin",
   "maqueenIR.onPressEvent|block": "on |%btn| button pressed",
   "maqueenIR|block": "maqueenIR",

@@ -243,5 +243,10 @@ namespace maqueen {
         buf[1] = angle;
         pins.i2cWriteBuffer(0x10, buf);
     }
-
+	
+    //% weight=20 parts="neopixel"
+    //% blockId=writeNEO block="ambient color|%ledcolor"
+    export function writeNEO(ledcolor: NeoPixelColors): void {
+        neopixel.create(DigitalPin.P15, 4, NeoPixelMode.RGB).showColor(neopixel.colors(ledcolor))
+    }
 }
