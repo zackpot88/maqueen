@@ -25,7 +25,7 @@
   "maqueen.writeLED|block": "LED|%led||%ledswitch",
   "maqueenIR.initIR|block": "|%pin|핀의 IR 리시버 시작",
   "maqueenIR.onPressEvent|block": "|%btn| 버튼 눌렸을 때",
-  "maqueenIR|block": "maqueenIR",
-  "{id:category}Maqueen": "Maqueen",
-  "{id:category}MaqueenIR": "MaqueenIR"
+  "maqueenIR|block": "마퀸IR",
+  "{id:category}Maqueen": "마퀸",
+  "{id:category}MaqueenIR": "마퀸IR"
 }
