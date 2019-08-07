@@ -23,6 +23,7 @@
   "maqueen.readPatrol|block": "|%patrol|적외선 센서 값",
   "maqueen.sensor|block": "초음파 센서 값 단위:|%unit",
   "maqueen.writeLED|block": "LED|%led||%ledswitch",
+  "maqueen.writeNEO|block": "무드 라이트 색:|%ledcolor",
   "maqueenIR.initIR|block": "|%pin|핀의 IR 리시버 시작",
   "maqueenIR.onPressEvent|block": "|%btn| 버튼 눌렸을 때",
   "maqueenIR|block": "마퀸IR",

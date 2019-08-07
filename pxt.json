@@ -1,10 +1,11 @@
 {
     "name": "maqueen",
-    "version": "0.0.4-c1",
+    "version": "0.0.5-c3",
     "description": "Affordable mini robot designed by DFRobot",
     "license": "MIT",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "neopixel": "github:microsoft/pxt-neopixel"
     },
     "files": [
         "maqueen.ts",
@@ -22,5 +23,6 @@
         "tests.ts"
     ],
     "public": true,
-    "installedVersion": "workspace:ddacbe7f-d46f-4553-84c3-c1e296d0d687"
+    "installedVersion": "workspace:10c13f02-d725-4375-62e7-5d7daacc8564",
+    "preferredEditor": "tsprj"
 }
