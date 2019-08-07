@@ -122,7 +122,7 @@ namespace maqueen {
         }
         return version
     }
-    
+
     function IR_callback(a: Action): void {
         maqueencb = a
         IrPressEvent += 1
@@ -243,10 +243,18 @@ namespace maqueen {
         buf[1] = angle;
         pins.i2cWriteBuffer(0x10, buf);
     }
-	
-    //% weight=20 parts="neopixel"
+
+    //% weight=20
     //% blockId=writeNEO block="ambient color|%ledcolor"
-    export function writeNEO(ledcolor: NeoPixelColors): void {
-        neopixel.create(DigitalPin.P15, 4, NeoPixelMode.RGB).showColor(neopixel.colors(ledcolor))
+    //% ledcolor.shadow="maqueen_colors"
+    export function writeNEO(ledcolor: number): void {
+        neopixel.create(DigitalPin.P15, 4, NeoPixelMode.RGB).showColor(ledcolor)
+    }
+
+    //% weight=2 blockGap=8
+    //% blockId="maqueen_colors" block="%color"
+    //% blockHidden=true
+    export function colors(color: NeoPixelColors): number {
+        return color;
     }
 }
