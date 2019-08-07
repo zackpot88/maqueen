@@ -1,6 +1,6 @@
 {
     "name": "maqueen",
-    "version": "0.0.5-c2",
+    "version": "0.0.5-c3",
     "description": "Affordable mini robot designed by DFRobot",
     "license": "MIT",
     "dependencies": {

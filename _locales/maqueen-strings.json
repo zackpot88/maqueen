@@ -18,6 +18,7 @@
   "maqueen.aMotors.M2|block": "M2",
   "maqueen.aServos.S1|block": "S1",
   "maqueen.aServos.S2|block": "S2",
+  "maqueen.colors|block": "%color",
   "maqueen.motorStopAll|block": "Motor Stop All",
   "maqueen.motorStop|block": "Motor stop|%motors",
   "maqueen.readPatrol|block": "Read Patrol|%patrol",
