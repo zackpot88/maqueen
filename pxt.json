@@ -1,6 +1,6 @@
 {
     "name": "maqueen",
-    "version": "0.0.5-c3",
+    "version": "0.0.6",
     "description": "Affordable mini robot designed by DFRobot",
     "license": "MIT",
     "dependencies": {
@@ -22,7 +22,5 @@
     "testFiles": [
         "tests.ts"
     ],
-    "public": true,
-    "installedVersion": "workspace:10c13f02-d725-4375-62e7-5d7daacc8564",
-    "preferredEditor": "tsprj"
+    "public": true
 }
