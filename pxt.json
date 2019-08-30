@@ -17,7 +17,8 @@
         "TransmitterIR.cpp",
         "TransmitterIR.h",
         "_locales/ko/maqueen-strings.json",
-        "shims.d.ts"
+        "shims.d.ts",
+        "icon.png"
     ],
     "testFiles": [
         "tests.ts"
